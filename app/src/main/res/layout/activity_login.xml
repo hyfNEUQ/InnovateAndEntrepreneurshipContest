@@ -54,10 +54,16 @@
             android:layout_centerHorizontal="true"
             android:layout_marginTop="30dp">
 
+            <fr.ganfra.materialspinner.MaterialSpinner
+                android:id="@+id/spinner7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" />
+
             <com.dd.processbutton.iml.ActionProcessButton
                 android:id="@+id/btnSignIn"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_below="@+id/spinner7"
                 android:text="登陆"
                 android:textColor="@android:color/white"
                 android:textSize="18sp"

@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/t1"
+        android:textSize="25dp"
+        android:text="问题订单"
+        android:layout_marginTop="25dp"
+        android:gravity="center"/>
+<ListView
+    android:layout_below="@id/t1"
+    android:id="@+id/list"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+</ListView>
+</RelativeLayout>
